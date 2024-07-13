@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	//"github.com/FactomProject/factom"
-	"github.com/FactomProject/go-bip32"
-	"github.com/FactomProject/go-bip39"
-	. "github.com/FactomProject/go-bip44"
+	"github.com/tyler-smith/go-bip32"
+	"github.com/tyler-smith/go-bip39"
+	. "github.com/forthxu/go-bip44"
 )
 
 func TestNewKeyFromMnemonic(t *testing.T) {
